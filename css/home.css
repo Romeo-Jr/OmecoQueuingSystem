@@ -1,0 +1,54 @@
+*{
+    scroll-behavior: smooth;
+}
+
+.loginbtn{
+    padding: 10px 50px 10px 50px;
+    font-size: 18px;
+    text-decoration: none;
+    border-radius: 20px;
+    color: white;
+    background-color: #28a745;
+}
+
+.loginbtn:hover{
+    transition: .5;
+    text-decoration: none;
+    color: black;
+    border: 1px solid #28a745;
+    background-color: transparent;
+}
+
+h1, h5{
+    font-family: 'Anton';
+}
+
+@media screen and (max-width : 760px){
+    #home-image{
+        display: none;
+    }
+
+    #home{
+        text-align: center;
+    }
+
+    #about section{
+        text-align: center;
+    }
+
+    #contactIMG{
+        display: none;
+    }
+
+    #fbIMG{
+        display:none;
+    }
+
+    #policyIMG{
+        display: none;
+    }
+
+    #socmedIMG{
+        display: none;
+    }
+}
